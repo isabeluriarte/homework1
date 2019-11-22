@@ -3,13 +3,12 @@ html {
 }
 
 body {
-    background: gray;
+    background: #ffffff;
     margin: 0;
-    min-height: 100vh;
 }
 
 header {
-    background: white;
+    background: #ffffff;
     position: fixed;
     top: 0;
     width: 100vw;
@@ -19,7 +18,7 @@ header {
     margin: 0 0 0 125px;
     padding: 20px 25px 20px 25px;
     text-align: center;
-    background: teal;
+    background: #4aaaa5;
     color: white;
     display:inline-block; 
 }
@@ -29,10 +28,9 @@ header {
 }
 
 section {
-    /* how to stop from moving up and down */
     width: 960px;
     margin: 0 auto;
-    background: white;
+    background: #ffffff;
     box-sizing: border-box;
     padding: 0px 20px 20px 20px;
     position: relative;
@@ -41,7 +39,7 @@ section {
 
 #portfolio {
     padding-top: 16px;
-    color: teal;
+    color: #4aaaa5;
 }
 
 .img {
@@ -64,14 +62,14 @@ section {
 }
 
 #footerline {
-    border: 5px solid teal;
+    border: 5px solid #4aaaa5;
     position: fixed;
     bottom: 35px;
     width: 100vw;
 }
 
 footer {
-    background: darkgray;
+    background: #666666;
     position: fixed;
     bottom: 0;
     width: 100vw;
