@@ -4,21 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="../homework1/Assets/css/contact.css">
     <title>Contact</title>
 </head>
 <body>
-    <header>
-        <h1>Isabel Uriarte</h1>
-        <button>About</button>
-        <button>Portfolio</button>
-        <button>Contact</button>
-    </header>
-    
-    <p>
-        <h1>Contact</h1>
-        <hr>
+        <header>
+                <div id="header">
+                <h1 id="name">Isabel Uriarte</h1>
         
-    </p>
+                    <div>
+                        <a class="links About" href="#">About</a>
+                        <a class="links Portfolio" href="#">Portfolio</a>
+                        <a class="links Contact" href="#">Contact</a>
+                    </div>
+                </div>
+                   
+            </header>
+    
+    <section>
+            <h1 id="contact">Contact</h1>
+            <hr>
+
+            <form>
+                Name<br>
+                <input class="name" type="text" name="name" placeholder="John Smith">
+                <br>
+                Email<br>
+                <input class="email" type="text" name="email" placeholder="example@gmail.com">
+                <br>
+                Message<br>
+                <textarea class="message" name="message"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        
+    </section>
+
+    <hr id="footerline">
+    <footer>
+        Copyrite &copy;
+    </footer>
+
 </body>
 </html>
